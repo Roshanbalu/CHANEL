@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.main {
+    height: 800vh;
+    border: 2px solid black;
+}
+
+.navbar {
+    height: 4vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-first {
+    height: 15vh;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    font-size: 12px;
+    height: 2vh;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+}
+
+.chanel {
+    height: 1.7vh;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.second-Navbar {
+    font-size: 10px;
+    height: 8vh;
+    width: 57%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: center;
+}
+
+.hero-section1 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1754918779977-one-hpcorpo-pre-launch-slidinghero-d-2880x1296pxx2_2592x5760.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fragrance,
+.finejewelry,
+.fashion,
+.skincare,
+.watches,
+.eyewear,
+.highjewelry,
+.hautecouture,
+.hautehorlogerie,
+.fashion1 {
+    color: whitesmoke;
+    height: 30vh;
+    width: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.highlighter {
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+.sub-highlighter {
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    height: 4vh;
+    width: 14%;
+    border: none;
+}
+
+.hero-section2 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1754921535154-one-hpcorpo-launch-slidinghero-d-2880x1296px_1296x2880.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.makeup {
+    color: whitesmoke;
+    height: 30vh;
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section3 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1732712528486-onehpcorpodslidinghero2880x1260px3jpg_1260x2880.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.highlighter3 {
+    color: rgb(11, 11, 11);
+    font-size: 10px;
+}
+
+.sub-highlighter3 {
+    color: rgb(16, 16, 16);
+    font-size: 23px;
+}
+
+.hero-section4 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1751275456896-homepagecorpoonedesktop36jpg_2510x5760.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section5 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1755004823289-one-hpcorpo-pre-launch-slidinghero-d-2880x1296px-4_1260x2880.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section6 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1741006855530-hpcorpodesk4k5760x2520jpg_2520x5760.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section7 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1752658768112-hpeyeweardesktop2880x162011jpg_3240x5760.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section8 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1746168757489-hpcorpodesk4k5760x2520v2jpg_2520x5760.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn8 {
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    height: 4vh;
+    width: 14%;
+    border: none;
+}
+
+.hero-section9 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1751994564583-homepagecorpoonedesktop39jpg_1620x2880.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section10 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1741013129693-hpcorpodesk4k5760x25201jpg_2520x5760.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section11 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.chanel.com/puls-img/c_limit,w_2400/q_auto:good,dpr_auto,f_auto/1742562117322-homepagecorpoonedesktopjpg_3240x5760.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn11 {
+    background-color: white;
+    color: black;
+    font-size: 8px;
+    height: 4vh;
+    width: 18%;
+    border: none;
+}
